@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 public class App {
 	public static void main(String[] args) {
 		Logger logger = LoggerFactory.getLogger(App.class);
-		logger.info("Hello World");
+		logger.error("error!");
+		logger.warn("warn!");
+		logger.info("info!");
+		logger.debug("debug!");
 	}
 }
